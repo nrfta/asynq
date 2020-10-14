@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/fatih/color"
-	"github.com/hibiken/asynq/internal/rdb"
+	"github.com/nrfta/asynq/internal/rdb"
 	"github.com/spf13/cobra"
 )
 

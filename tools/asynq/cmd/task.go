@@ -10,7 +10,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/hibiken/asynq"
+	"github.com/nrfta/asynq"
 	"github.com/spf13/cobra"
 )
 
