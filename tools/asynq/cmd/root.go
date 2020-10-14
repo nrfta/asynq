@@ -13,9 +13,9 @@ import (
 	"text/tabwriter"
 
 	"github.com/go-redis/redis/v7"
-	"github.com/nrfta/asynq"
-	"github.com/nrfta/asynq/internal/base"
-	"github.com/nrfta/asynq/internal/rdb"
+	"github.com/hibiken/asynq"
+	"github.com/hibiken/asynq/internal/base"
+	"github.com/hibiken/asynq/internal/rdb"
 	"github.com/spf13/cobra"
 
 	homedir "github.com/mitchellh/go-homedir"

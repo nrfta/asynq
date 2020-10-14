@@ -1,4 +1,4 @@
-module github.com/nrfta/asynq
+module github.com/hibiken/asynq
 
 go 1.13
 

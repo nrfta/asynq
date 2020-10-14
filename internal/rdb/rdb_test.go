@@ -17,8 +17,8 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/google/uuid"
-	h "github.com/nrfta/asynq/internal/asynqtest"
-	"github.com/nrfta/asynq/internal/base"
+	h "github.com/hibiken/asynq/internal/asynqtest"
+	"github.com/hibiken/asynq/internal/base"
 )
 
 // variables used for package testing.

@@ -10,8 +10,8 @@ import (
 	"os"
 
 	"github.com/fatih/color"
-	"github.com/nrfta/asynq"
-	"github.com/nrfta/asynq/internal/rdb"
+	"github.com/hibiken/asynq"
+	"github.com/hibiken/asynq/internal/rdb"
 	"github.com/spf13/cobra"
 )
 

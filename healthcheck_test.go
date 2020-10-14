@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nrfta/asynq/internal/rdb"
-	"github.com/nrfta/asynq/internal/testbroker"
+	"github.com/hibiken/asynq/internal/rdb"
+	"github.com/hibiken/asynq/internal/testbroker"
 )
 
 func TestHealthChecker(t *testing.T) {

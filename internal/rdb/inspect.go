@@ -12,7 +12,7 @@ import (
 
 	"github.com/go-redis/redis/v7"
 	"github.com/google/uuid"
-	"github.com/nrfta/asynq/internal/base"
+	"github.com/hibiken/asynq/internal/base"
 	"github.com/spf13/cast"
 )
 

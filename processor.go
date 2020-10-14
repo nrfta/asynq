@@ -12,9 +12,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/nrfta/asynq/internal/base"
-	"github.com/nrfta/asynq/internal/log"
-	"github.com/nrfta/asynq/internal/rdb"
+	"github.com/hibiken/asynq/internal/base"
+	"github.com/hibiken/asynq/internal/log"
+	"github.com/hibiken/asynq/internal/rdb"
 	"golang.org/x/time/rate"
 )
 

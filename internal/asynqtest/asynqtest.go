@@ -15,7 +15,7 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/google/uuid"
-	"github.com/nrfta/asynq/internal/base"
+	"github.com/hibiken/asynq/internal/base"
 )
 
 // EquateInt64Approx returns a Comparer option that treats int64 values

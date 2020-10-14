@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/nrfta/asynq/internal/asynqtest"
-	"github.com/nrfta/asynq/internal/base"
+	"github.com/hibiken/asynq/internal/asynqtest"
+	"github.com/hibiken/asynq/internal/base"
 )
 
 func TestScheduler(t *testing.T) {
