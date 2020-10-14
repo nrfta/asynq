@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hibiken/asynq/internal/base"
-	"github.com/hibiken/asynq/internal/log"
+	"github.com/nrfta/asynq/internal/base"
+	"github.com/nrfta/asynq/internal/log"
 )
 
 // healthchecker is responsible for pinging broker periodically

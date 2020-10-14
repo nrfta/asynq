@@ -12,9 +12,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/hibiken/asynq/internal/asynqtest"
-	h "github.com/hibiken/asynq/internal/asynqtest"
-	"github.com/hibiken/asynq/internal/base"
+	"github.com/nrfta/asynq/internal/asynqtest"
+	h "github.com/nrfta/asynq/internal/asynqtest"
+	"github.com/nrfta/asynq/internal/base"
 )
 
 func TestInspectorQueues(t *testing.T) {

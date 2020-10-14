@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/go-redis/redis/v7"
-	"github.com/hibiken/asynq/internal/base"
-	"github.com/hibiken/asynq/internal/log"
+	"github.com/nrfta/asynq/internal/base"
+	"github.com/nrfta/asynq/internal/log"
 )
 
 type subscriber struct {

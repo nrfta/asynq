@@ -12,8 +12,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/hibiken/asynq/internal/base"
-	"github.com/hibiken/asynq/internal/rdb"
+	"github.com/nrfta/asynq/internal/base"
+	"github.com/nrfta/asynq/internal/rdb"
 )
 
 // A Client is responsible for scheduling tasks.

@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- `Scheduler` type is added to enable periodic tasks. See the godoc for its APIs and [wiki](https://github.com/hibiken/asynq/wiki/Periodic-Tasks) for the getting-started guide.
+- `Scheduler` type is added to enable periodic tasks. See the godoc for its APIs and [wiki](https://github.com/nrfta/asynq/wiki/Periodic-Tasks) for the getting-started guide.
 
 ### Changed
 
@@ -26,7 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.12.0] - 2020-09-12
 
-**IMPORTANT**: If you are upgrading from a previous version, please install the latest version of the CLI `go get -u github.com/hibiken/asynq/tools/asynq` and run `asynq migrate` command. No process should be writing to Redis while you run the migration command. 
+**IMPORTANT**: If you are upgrading from a previous version, please install the latest version of the CLI `go get -u github.com/nrfta/asynq/tools/asynq` and run `asynq migrate` command. No process should be writing to Redis while you run the migration command. 
 
 ## The semantics of queue have changed
 Previously, we called tasks that are ready to be processed *"Enqueued tasks"*, and other tasks that are scheduled to be processed in the future *"Scheduled tasks"*, etc.
@@ -107,13 +107,13 @@ To view details on any command, use `asynq help <command> <subcommand>`.
 
 ### Fixed
 
-- Fixes issue of same tasks processed by more than one worker (https://github.com/hibiken/asynq/issues/90).
+- Fixes issue of same tasks processed by more than one worker (https://github.com/nrfta/asynq/issues/90).
 
 ## [0.9.3] - 2020-06-12
 
 ### Fixed
 
-- Fixes the JSON number overflow issue (https://github.com/hibiken/asynq/issues/166).
+- Fixes the JSON number overflow issue (https://github.com/nrfta/asynq/issues/166).
 
 
 ## [0.9.2] - 2020-06-08
@@ -148,7 +148,7 @@ To view details on any command, use `asynq help <command> <subcommand>`.
 
 ### Fixed
 
-- [Fixed cancelfunc leak](https://github.com/hibiken/asynq/pull/145)
+- [Fixed cancelfunc leak](https://github.com/nrfta/asynq/pull/145)
 
 ## [0.8.1] - 2020-04-27
 

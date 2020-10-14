@@ -11,7 +11,7 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/hibiken/asynq"
+	"github.com/nrfta/asynq"
 	"golang.org/x/sys/unix"
 )
 
